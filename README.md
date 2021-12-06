@@ -11,4 +11,4 @@ Data Science. I’ve used Python, R, and SQL.
 This visualization was created for Intro to SDS with Professor Albert
 Kim, Fall 2021
 
-![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](README_files/map.png)<!-- -->
