@@ -1,0 +1,46 @@
+---
+title: "Intro"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## About me
+I'm Lillian, an undergraduate at Smith College studying Statistical and Data Science. I've used Python, R, and SQL. 
+
+## Example of my work
+
+This visualization was created for Intro to SDS with Professor Albert Kim, Fall 2021
+
+```{r, echo = FALSE, message = FALSE}
+library(tidyverse)
+library(sf)
+library(tidycensus)
+
+wage_gap_by_state <- read_csv("README_files/Overall-Wage-Gap-State-By-State.csv")
+
+USA_map <-  maps::map("state", plot = FALSE, fill = TRUE)
+
+#convert USA map to sf
+USA_sf <- USA_map %>% 
+  st_as_sf(crs = 4326)
+
+#join the data by state 
+joined_data <- USA_sf %>%
+  left_join(wage_gap_by_state, by = "ID") %>%
+  mutate(wage_gap = parse_number(wage_gap))
+```
+
+```{r, echo = FALSE}
+ggplot() +
+  geom_sf(data = joined_data, aes(fill = wage_gap), size = 0.5) +
+  scale_fill_gradient(high = "#E34A33", low = "#FEE8C8", guide = "colorbar") +
+  labs(title= "Gender Wage Gap in the US", fill = "Per dollar") +
+  theme(axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        rect = element_blank())
+```
