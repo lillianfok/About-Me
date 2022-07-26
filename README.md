@@ -8,7 +8,7 @@ I enjoy dancing, food co-op living, and pictures of snails or frogs.
 
 ## Examples of my work
 
-This text-based adventure game is an Alice in Wonderland themed final project for Data Structures, Spring 2022
+This text-based adventure game is an Alice in Wonderland themed final project for Data Structures, Spring 2022 
 https://replit.com/@LillianFok/CSinWonderland#Main.java 
 
 This visualization was created for Intro to Statistical and Data Sciences, Fall 2021
