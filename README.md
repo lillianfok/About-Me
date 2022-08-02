@@ -3,8 +3,8 @@ Intro
 
 ## About me
 
-I'm an undergraduate at Smith College studying Statistical and Data Sciences. I am proficient in R/RStudio and Java. 
-I enjoy dancing, food co-op living, and pictures of snails or frogs.
+I'm an undergraduate at Smith College studying Statistical and Data Sciences. I am proficient in R/RStudio, Python, and Java. 
+I enjoy dancing, food co-op living, and pictures of snails and frogs.
 
 ## Examples of my work
 
