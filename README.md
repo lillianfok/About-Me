@@ -7,6 +7,8 @@ I'm an undergraduate at Smith College studying Statistical and Data Sciences. I 
 I enjoy dancing, food co-op living, and learning about liberatory relational practices.
 
 ## Examples of my work
+I was a DSC-WAV fellow Fall 2022, during which I worked with geospatial and Census data and collaboratively created a dashboard for a community client. 
+https://github.com/lillianfok/Childcare-Mapping 
 
 This text-based adventure game is an Alice in Wonderland themed final project for Data Structures, Spring 2022 
 https://replit.com/@LillianFok/CSinWonderland#Main.java 
